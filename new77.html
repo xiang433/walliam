@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元智大學在學證明認證系統</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", "微軟正黑體", Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.8;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+        label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        input {
+            width: 280px;
+            padding: 5px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .confirm-button {
+            background-color: #3399FF;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 30px;
+            cursor: pointer;
+        }
+        .confirm-button:hover {
+            background-color: #0077DD;
+        }
+        .note {
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            margin-top: 20px;
+        }
+        .note p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>元智大學在學證明認證系統(<a href="#">附上認證系統網址</a>)</h2>
+    <p>請輸入認證資訊</p>
+
+    <label for="studentID">學生學號：</label>
+    <input type="text" id="studentID" value="1090616" readonly><br>
+
+    <label for="serialNumber">認證序號：</label>
+    <input type="text" id="serialNumber" value="109061601131216164430" readonly><br>
+
+    <button class="confirm-button">確定</button>
+
+    <div class="note">
+        <p>說明：</p>
+        <p>※本校在學證明認證有效期限為30日，若超過30日則無法登錄認證，請同學重新申請。</p>
+    </div>
+</body>
+</html>
